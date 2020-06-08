@@ -13,7 +13,7 @@
 >     /sensor/head_imu(头部 IMU)
 > 类型:sensor_msgs/Imu
 > 发布频率:1000Hz
-> Imu格式 IMU[https://github.com/Dongbox/walker_wiki/blob/master/msg_format.md#1imu]
+> [Imu格式](https://github.com/Dongbox/walker_wiki/blob/master/msg_format.md#1imu)
 
 ##### Usage
 ```
