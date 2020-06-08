@@ -17,6 +17,7 @@
 
 ##### Usage
 ```
+# 1.camera_imu
 from utils.walker_tops_srvs import WalkerWebotsPub, build_subscriber
 
 def callback_func(msg):
@@ -25,4 +26,8 @@ def callback_func(msg):
 camera_imu = WalkerWebotsPub.camera_imu
 
 sub = build_subscriber(camera_imu, callback_func)
+# 2.orientus_imu
+...
+
+# 3.head_imu
 ```
